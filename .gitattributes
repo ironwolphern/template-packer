@@ -1,0 +1,25 @@
+# adding github settings to show correct language
+*.json linguist-detectable=true
+*.hcl linguist-detectable=true
+*.yml linguist-detectable=true
+*.tf linguist-detectable=true
+*.md linguist-documentation
+
+# Detect text files automatically
+* text=auto
+
+# Force LF line ending on these files
+*.sh eol=lf
+*.cfg eol=lf
+*.conf eol=lf
+
+# Force CRLF line ending on these files
+*.bat eol=crlf
+*.xml eol=crlf
+
+# Force binary on these files
+*.cer binary
+*.crt binary
+*.der binary
+*.dll binary
+*.exe binary
